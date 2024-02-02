@@ -16,6 +16,8 @@ body {
 }
 
 h1 {
+    color: white;
+    box-shadow: black 1px 1px;
     font-size: 2.3em;
     line-height: 1.3em;
     margin: 15px 0;
@@ -119,9 +121,10 @@ nav ul li a:hover {
     margin-right: 20%;
     margin-bottom: 10px;
     padding: 20px;
-    border: 1px solid #a39393;
+    border: 1px solid black;
     border-radius: 4px;
     background-color: #f9f9f9;
+    color: black;
 }
 
 .container h1 {
@@ -133,4 +136,23 @@ nav ul li a:hover {
     top: 0;
     width: 100%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.boton {
+    margin-left: 42%;
+    margin-right: 15%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #04125c;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    /* Borde del botón */
+    border-radius: 5px;
+    /* Esquinas redondeadas */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
