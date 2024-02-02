@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(blue, white);
+    background: linear-gradient(#04125c, white);
 }
 
 .login-container {
@@ -42,7 +42,7 @@ input {
 }
 
 .login-button {
-    background: linear-gradient(to right, blue, pink);
+    background-color: #04125c;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -51,12 +51,12 @@ input {
     cursor: pointer;
     text-align: center;
     box-shadow: #333 1px 1px;
-
 }
 
 .login-button:hover {
-    color: black;
-    box-shadow: #333 1px 1px;
+    left: 0;
+    transition: left 5s cubic-bezier(0, 0, 1, 1);
+
 }
 
 /* Media queries para hacerlo responsive */
