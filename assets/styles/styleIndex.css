@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(blue, pink);
+    background: linear-gradient(blue, white);
 }
 
 .login-container {
@@ -35,56 +35,69 @@ label {
 }
 
 input {
-    padding: 10px;
+    padding: 16px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-button {
-    background-color: #4caf50;
+.login-button {
+    background: linear-gradient(to right, blue, pink);
     color: #fff;
+    font-size: 20px;
     padding: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    text-align: center;
+    box-shadow: #333 1px 1px;
+
 }
 
-button:hover {
-    background-color: #45a049;
+.login-button:hover {
+    color: black;
+    box-shadow: #333 1px 1px;
 }
 
 /* Media queries para hacerlo responsive */
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .login-container {
-        width: 100%;
+        width: 90%;
+        max-width: 90%;
+        margin: 2px;
     }
 
     .login-container {
         background-color: #fff;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 300px;
-        max-width: 100%;
-    }
-
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(blue, pink);
+        padding: 20px;
+        width: 310px;
+        max-width: 120%;
+        height: 70vh;
     }
 
     input {
-        padding: 20px;
-        margin-bottom: 26px;
+        padding: 25px;
+        margin-bottom: 16px;
         border: 1px solid #ccc;
         border-radius: 4px;
+    }
+
+    label {
+        margin-bottom: 8px;
+        color: #555;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .login-button {
+        margin-top: 10%;
+        background-color: #4caf50;
+        color: #fff;
+        padding: 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
     }
 }
