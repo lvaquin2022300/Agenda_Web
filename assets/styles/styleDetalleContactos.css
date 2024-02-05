@@ -67,6 +67,7 @@ body {
     margin: 10px;
     display: flex;
     align-items: center;
+    width: 80%;
 }
 
 .avatar {
@@ -86,4 +87,26 @@ h2 {
 
 strong {
     font-weight: bold;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-position: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #04125c;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    /* Borde del botón */
+    border-radius: 5px;
+    /* Esquinas redondeadas */
+    cursor: pointer;
 }
