@@ -170,3 +170,28 @@ nav ul li a:hover {
     justify-content: center;
     width: 35%;
 }
+
+/* Otros estilos que ya tienes... */
+
+.favorite-btn {
+
+    background-color: #04125c;
+    color: white;
+    box-shadow: 5px 3px #0b76a6;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.favorite-btn:hover {
+    background-color: #0b76a6;
+    color: white;
+    box-shadow: 5px 3px #04125c;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
