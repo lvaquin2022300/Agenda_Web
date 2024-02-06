@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background: linear-gradient(#04125c, white);
+    font-size: 1em;
+    line-height: 1.5em;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    font-size: 2.3em;
+    margin: 15px 0;
+    text-align: center;
+    margin-top: 11%;
+}
+
+p {
+    margin: 0 0 1.5em 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#main-header {
+    background: #04125c;
+    color: white;
+    height: 99px;
+    z-index: 10;
+}
+
+#main-header a {
+    color: white;
+}
+
+/*
+    * Logo
+    */
+#logo-header {
+    float: left;
+    padding: 30px 0 0 20px;
+    text-decoration: none;
+}
+
+#logo-header:hover {
+    color: #F2811D;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 99px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #0b76a6;
+}
+
+
+.SubtituloMain {
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#contactList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+#contactList li {
+    margin-top: 0.2%;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 1%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: black;
+    width: 40%;
+}
+
+
+
+#main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.boton {
+    background-position: center;
+    margin-right: 40%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #04125c;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    /* Borde del botón */
+    border-radius: 5px;
+    /* Esquinas redondeadas */
+    cursor: pointer;
+}
+
+
+.btn {
+    margin-bottom: 16px;
+    margin-left: 39%;
+    margin-right: 50%;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+
+/* Otros estilos que ya tienes... */
+
+.container h1 {
+    margin-top: 14%;
+    color: #04125c;
+}

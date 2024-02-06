@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#04125c, white);
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.contact-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-block: 5px;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 38%;
+
+}
+
+.avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info {
+    flex-grow: 1;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    width: 10%;
+    height: 5%;
+    background-position: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #04125c;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    /* Borde del botón */
+    border-radius: 5px;
+    /* Esquinas redondeadas */
+    cursor: pointer;
+    margin-left: 42%;
+    margin-top: 1.5%;
+    margin-bottom: 15px;
+}
+
+.ttt {
+    padding-top: 10px;
+    width: 100%;
+    color: white;
+    font-size: 105%;
+    background-position: 45%;
+    text-align: center;
+}
