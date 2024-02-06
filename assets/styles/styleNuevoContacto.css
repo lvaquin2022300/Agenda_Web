@@ -7,6 +7,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background: linear-gradient(#04125c, white);
+
 }
 
 form {
@@ -29,11 +31,32 @@ input {
     box-sizing: border-box;
 }
 
-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
+.boton {
+    color: white;
+    display: block;
+    width: 200px;
+    height: 20px;
+    margin: 20px auto;
+    background-color: #04125c;
     border: none;
-    border-radius: 4px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.botonAg {
+    color: white;
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #04125c;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
     cursor: pointer;
 }
