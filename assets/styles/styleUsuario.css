@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#04125c, white);
+    background-repeat: no-repeat;
+}
+
+.profile-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-details h1 {
+    color: #04125c;
+    margin-bottom: 10px;
+
+
+}
+
+h2 {
+    color: #04125c;
+
+}
+
+.profile-details p {
+    color: #666;
+    margin-bottom: 5px;
+
+
+}
+
+.boton {
+    margin-top: 8%;
+    background-position: center;
+    margin-right: 40%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #04125c;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    /* Borde del botón */
+    border-radius: 5px;
+    /* Esquinas redondeadas */
+    cursor: pointer;
+}
+
+.conteinerContacts {
+    margin-top: 7%;
+}
+
+.btn {
+    margin-bottom: 16px;
+    margin-left: 39%;
+    margin-right: 50%;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
