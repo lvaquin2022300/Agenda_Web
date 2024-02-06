@@ -1,14 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(#04125c, white);
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 
 .contact-list {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -18,13 +21,16 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin: 0px;
-    display: flex;
+    margin-block: 5px;
     align-items: center;
-    width: 100%
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 38%;
+
 }
 
 .avatar {
+    position: absolute;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -33,6 +39,7 @@ body {
 
 .info {
     flex-grow: 1;
+    text-align: center;
 }
 
 h2 {
@@ -49,6 +56,8 @@ strong {
 }
 
 .btn {
+    width: 10%;
+    height: 5%;
     background-position: center;
     display: inline-block;
     padding: 10px 20px;
@@ -63,10 +72,16 @@ strong {
     border-radius: 5px;
     /* Esquinas redondeadas */
     cursor: pointer;
+    margin-left: 42%;
+    margin-top: 1.5%;
+    margin-bottom: 15px;
 }
 
-.ttt h1 {
-    color: #04125c;
+.ttt {
+    padding-top: 10px;
+    width: 100%;
+    color: white;
+    font-size: 105%;
     background-position: 45%;
     text-align: center;
 }
